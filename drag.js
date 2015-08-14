@@ -14,3 +14,6 @@ function Person(name, age){
 Person.prototype.sayName = function(){
 	alert(this.name);
 }
+Person.prototype.sayAge = function(){
+	alert(this.name);
+}
